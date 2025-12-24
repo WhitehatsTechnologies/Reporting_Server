@@ -44,7 +44,7 @@ def check_status(request):
 
 
 @csrf_exempt
-def generate_report_new(request):
+def generate_report(request):
     response = {
         "status": "success",
         "message": "Report generation initiated.",
